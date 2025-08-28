@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main_head {
+    height: 768px;
+    background: linear-gradient(to right, rgba(30, 30, 30, 0.6)), url(./images/coffee_image_main.png);
+}
+
+.main_head>img {
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>h1 {
+    color: white;
+    font-family: "Clicker Script", cursive;
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 21px;
+    margin-left: 93px;
+}
+
+nav>ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav>ul>li {
+    list-style: none;
+    margin-top: 34px;
+}
+
+nav>ul>li>a {
+    color: white;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+}
+
+nav>.nav-2 {
+    margin-top: 21px;
+    margin-right: 93px;
+}
+
+nav>.nav-2>a {
+    position: relative;
+    right: 50px;
+    color: white;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(156, 155, 155);
+}
+
+nav>.nav-2>button>a {
+    color: #1E1E1E;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+}
+
+nav>.nav-2>button {
+    height: 50px;
+    width: 120px;
+    background-color: #F9C06A;
+    border-radius: 24px;
+    border: none;
+}
+
+.sub_head {
+    color: white;
+    margin-top: 130px;
+    margin-left: 93px;
+}
+
+.sub_head>p {
+    font-size: 22px;
+    font-family: "Playfair Display", serif;
+}
+
+.sub_head>h1 {
+    font-size: 220px;
+    font-family: "Clicker Script", cursive;
+    font-weight: 400;
+}
+
+.sub_head>h4 {
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    line-height: 34px;
+    padding-bottom: 20px;
+}
+
+.sub_head>button {
+    height: 50px;
+    width: 120px;
+    background-color: #F9C06A;
+    border-radius: 24px;
+    border: none;
+}
+
+.sub_head>button>a {
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+}
+
+.intro-coffee {
+    display: flex;
+}
+
+.intro-coffee>.intro-text {
+    font-family: "Playfair Display", serif;
+    margin: 150px 0 0 93px;
+}
+
+.intro-coffee>.intro-text>h2 {
+    font-size: 54px;
+    font-weight: bold;
+    color: #603809;
+    padding-bottom: 20px;
+}
+
+.intro-coffee>.intro-text>p {
+    font-size: 20px;
+    line-height: 34px;
+    color: #707070;
+    padding-bottom: 20px;
+}
+
+.intro-coffee>.intro-text>button {
+    height: 50px;
+    width: 150px;
+    background-color: #F9C06A;
+    border-radius: 24px;
+    border: none;
+}
+
+.intro-coffee>.intro-text>button>a {
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.intro-coffee>.intro-image>img {
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.coffee_style {
+    height: 542px;
+    width: 1180px;
+    font-family: "Playfair Display", serif;
+    margin-top: 9rem;
+    text-align: center;
+}
+
+.coffee_style>h1 {
+    color: #603809;
+    font-size: 54px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.coffee_style>p {
+    color: #707070;
+    font-size: 20px;
+    line-height: 34px;
+    padding-bottom: 30px;
+}
+
+.order_now {
+    height: 388px;
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    font-family: "Playfair Display";
+}
+
+.coffee_order {
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    background-color: #FFF9F1;
+    height: 350px;
+}
+
+.coffee_order>img {
+    height: 222px;
+}
+
+.order_now>.coffee_order>h2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: #603809;
+    font-family: "Playfair Display";
+}
+
+.order_now>.coffee_order>p {
+    color: #1E1E1E;
+    font-size: 1rem;
+    padding-top: 5px;
+    font-family: "Playfair Display";
+}
+
+.order_now>.coffee_order>h3 {
+    color: #603809;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+    font-family: "Playfair Display";
+}
+
+.order_now>.coffee_order>button>a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1E1E1E;
+    font-family: "Playfair Display";
+    text-decoration: none;
+}
+
+.order_now>.coffee_order>button {
+    border-radius: 24px;
+    background-color: #F9C06A;
+    height: 48px;
+    width: 134px;
+    border: none;
+    position: relative;
+    top: 15px;
+}
