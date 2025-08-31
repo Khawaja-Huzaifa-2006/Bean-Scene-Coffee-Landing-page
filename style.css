@@ -249,7 +249,7 @@ nav>.nav-2>button {
     font-family: "Playfair Display", serif;
     margin-top: 5rem;
     text-align: center;
-    
+
 }
 
 .coffee_discription>h1 {
@@ -302,19 +302,23 @@ nav>.nav-2>button {
     padding-top: 10px;
     font-family: "Playfair Display";
 }
-.coffee_discription >.coffee_2 >p {
+
+.coffee_discription>.coffee_2>p {
     font-size: 20px;
     color: #707070;
 }
-.coffee_discription >.coffee_2 >p >span {
+
+.coffee_discription>.coffee_2>p>span {
     font-size: 30px;
     color: #603809;
     font-weight: bold;
 }
-.coffee_discription >.coffee_2 {
+
+.coffee_discription>.coffee_2 {
     text-align: center;
     margin-top: 40px;
 }
+
 .coffee_discription>.coffee_2>button>a {
     font-size: 16px;
     font-weight: bold;
@@ -324,6 +328,48 @@ nav>.nav-2>button {
 }
 
 .coffee_discription>.coffee_2>button {
+    border-radius: 24px;
+    background-color: #F9C06A;
+    height: 48px;
+    width: 134px;
+    border: none;
+    position: relative;
+    top: 15px;
+}
+
+.get-chance {
+    height: 574px;
+    background-image: url(./images/bg-coffee.png);
+}
+
+.get-chance>.get-text {
+    font-family: "Playfair Display";
+    position: relative;
+    top: 25%;
+    left: 7%;
+}
+
+.get-chance>.get-text>h2 {
+    font-size: 54px;
+    color: white;
+    font-weight: bold;
+}
+
+.get-chance>.get-text>p {
+    font-size: 20px;
+    line-height: 34px;
+    color: white;
+}
+
+.get-chance>.get-text>button>a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1E1E1E;
+    font-family: "Playfair Display";
+    text-decoration: none;
+}
+
+.get-chance>.get-text>button {
     border-radius: 24px;
     background-color: #F9C06A;
     height: 48px;
