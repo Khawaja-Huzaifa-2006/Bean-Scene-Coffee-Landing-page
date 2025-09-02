@@ -472,3 +472,60 @@ nav>.nav-2>button {
     border: none;
     border-radius: 10px;
 }
+.search{
+    height: 374px;
+    background-image: url(./images/search.png);
+    margin-top: 50px;
+}
+.search >.s-text {
+    text-align: center;
+    padding-top: 80px;
+}
+.search >.s-text >h2 {
+    font-size: 54px;
+    font-weight: bold;
+    color: white;
+    font-family: "Playfair Display";
+}
+.search >.s-text >p {
+    font-size: 20px;
+    line-height: 34px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: "Playfair Display";
+}
+.search >.s-text > input{
+    width: 642px;
+    height: 66px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Playfair Display";
+    position: relative;
+    left: 70px;
+}
+.search >.s-text > input::placeholder{
+    font-size: 20px;
+    font-family: "Playfair Display";
+    line-height: 34px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.34);
+}
+.search >.s-text >button{
+    height: 66px;
+    width: 137px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F9C06A;
+    position: relative;
+    right: 70px;
+    top: 2.5px;
+}
+.search >.s-text >button >a{
+    font-family: "Playfair Display";
+    color: #603809;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
