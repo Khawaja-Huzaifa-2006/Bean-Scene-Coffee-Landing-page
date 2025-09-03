@@ -472,22 +472,26 @@ nav>.nav-2>button {
     border: none;
     border-radius: 10px;
 }
-.search{
+
+.search {
     height: 374px;
     background-image: url(./images/search.png);
     margin-top: 50px;
 }
-.search >.s-text {
+
+.search>.s-text {
     text-align: center;
     padding-top: 80px;
 }
-.search >.s-text >h2 {
+
+.search>.s-text>h2 {
     font-size: 54px;
     font-weight: bold;
     color: white;
     font-family: "Playfair Display";
 }
-.search >.s-text >p {
+
+.search>.s-text>p {
     font-size: 20px;
     line-height: 34px;
     color: white;
@@ -495,7 +499,8 @@ nav>.nav-2>button {
     padding-bottom: 30px;
     font-family: "Playfair Display";
 }
-.search >.s-text > input{
+
+.search>.s-text>input {
     width: 642px;
     height: 66px;
     border: none;
@@ -504,7 +509,8 @@ nav>.nav-2>button {
     position: relative;
     left: 70px;
 }
-.search >.s-text > input::placeholder{
+
+.search>.s-text>input::placeholder {
     font-size: 20px;
     font-family: "Playfair Display";
     line-height: 34px;
@@ -512,7 +518,8 @@ nav>.nav-2>button {
     padding-top: 20px;
     color: rgba(0, 0, 0, 0.34);
 }
-.search >.s-text >button{
+
+.search>.s-text>button {
     height: 66px;
     width: 137px;
     border: none;
@@ -522,10 +529,96 @@ nav>.nav-2>button {
     right: 70px;
     top: 2.5px;
 }
-.search >.s-text >button >a{
+
+.search>.s-text>button>a {
     font-family: "Playfair Display";
     color: #603809;
     font-size: 22px;
     font-weight: bold;
     text-decoration: none;
+}
+
+footer {
+    height: 698px;
+    background: linear-gradient(to top, #c27319, #69360e);
+}
+
+footer>img {
+    position: relative;
+    top: 20px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+footer>.foot-coffee>.foot-text>h2 {
+    color: white;
+    font-size: 54px;
+    font-family: "Clicker Script", cursive;
+    padding-bottom: 20px;
+}
+
+footer>.foot-coffee>.foot-text>p {
+    color: white;
+    font-size: 14px;
+    font-family: "Playfair Display";
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.foot-about>h2,
+.foot-company>h2 {
+    padding-bottom: 60px;
+}
+
+.foot-contact>h2 {
+    padding-bottom: 30px;
+}
+
+.foot-about>h2,
+.foot-company>h2,
+.foot-contact>h2 {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Playfair Display";
+}
+
+.foot-about>h4,
+.foot-company>h4,
+.foot-contact>h4 {
+    color: white;
+    font-size: 18px;
+    line-height: 42px;
+    font-family: "Playfair Display";
+}
+
+footer>.foot-coffee {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 20rem;
+    z-index: 1;
+}
+
+.foot-text {
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+
+.foot-about {
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+
+.foot-company {
+    position: relative;
+    left: 10px;
+    top: 40px;
+}
+
+.foot-contact {
+    position: relative;
+    left: 10px;
+    top: 40px;
 }
